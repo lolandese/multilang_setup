@@ -5,7 +5,7 @@
 If your site folder:
 
 - cd sites/all/modules
-- git clone --depth=1 --branch 7.x-1.x http://git.drupal.org/sandbox/lolandese/xxxxxxx.git multilang_setup
+- git clone --depth=1 --branch 7.x-1.x https://github.com/lolandese/multilang_setup.git multilang_setup
 - rm -rf !$/.git
 - cd multilang_setup
 
