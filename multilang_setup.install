@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site to be multilingual.
+ *
+ * @see system_install()
+ */
+function multilang_setup_install() {
+  $t = get_t();
+
+  // Default "Basic page" to not be promoted.
+  variable_set('node_options_page', array('status'));
+}

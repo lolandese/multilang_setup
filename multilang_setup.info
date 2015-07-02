@@ -1,0 +1,27 @@
+name = Multi language setup
+description = Adds Spanish to an English site as a starting point.
+core = 7.x
+package = Multilingual
+
+; Required modules (Core)
+dependencies[] = locale
+
+; Required modules (Contrib)
+dependencies[] = i18n
+dependencies[] = i18n
+dependencies[] = i18nviews
+dependencies[] = variable
+dependencies[] = l10n_update
+dependencies[] = admin_language
+
+; Sub-modules
+dependencies[] = i18n_field
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_select
+dependencies[] = i18n_string
+dependencies[] = i18n_translation
+dependencies[] = i18n_variable
+dependencies[] = i18nviews
+dependencies[] = variable_realm
+dependencies[] = variable_store
